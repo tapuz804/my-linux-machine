@@ -1,0 +1,7 @@
+[Unit]
+Description=Heartbeat Logger
+
+[Service]
+Type=oneshot
+User=marom
+ExecStart=/usr/local/bin/heartbeat.sh
