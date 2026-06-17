@@ -1,0 +1,3 @@
+alias q='cd ../'
+alias mv='mv -iv'
+alias untar='tar -zxvf'
