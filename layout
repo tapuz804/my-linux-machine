@@ -1,0 +1,28 @@
+lsblk before: 
+loop47        7:47   0   580K  1 loop /snap/snapd-desktop-integration/361
+loop48        7:48   0 246.7M  1 loop /snap/firefox/8328
+loop49        7:49   0 238.8M  1 loop /snap/steam/218
+loop50        7:50   0 162.4M  1 loop /snap/spotify/94
+loop51        7:51   0  85.6M  1 loop /snap/whatsapp-linux-app/2
+loop52        7:52   0 451.3M  1 loop /snap/zoom-client/258
+loop53        7:53   0 278.4M  1 loop /snap/steam/231
+loop54        7:54   0 484.1M  1 loop /snap/zoom-client/275
+loop55        7:55   0 175.2M  1 loop /snap/spotify/96
+nvme0n1     259:0    0 953.9G  0 disk 
+├─nvme0n1p1 259:1    0     1G  0 part /boot/efi
+└─nvme0n1p2 259:2    0 952.8G  0 part /var/snap/firefox/common/host-hunspell
+
+lsblk after:
+loop46        7:46   0     1G  0 loop 
+loop47        7:47   0   580K  1 loop /snap/snapd-desktop-integration/361
+loop48        7:48   0 246.7M  1 loop /snap/firefox/8328
+loop49        7:49   0 238.8M  1 loop /snap/steam/218
+loop50        7:50   0 162.4M  1 loop /snap/spotify/94
+loop51        7:51   0  85.6M  1 loop /snap/whatsapp-linux-app/2
+loop52        7:52   0 451.3M  1 loop /snap/zoom-client/258
+loop53        7:53   0 278.4M  1 loop /snap/steam/231
+loop54        7:54   0 484.1M  1 loop /snap/zoom-client/275
+loop55        7:55   0 175.2M  1 loop /snap/spotify/96
+nvme0n1     259:0    0 953.9G  0 disk 
+├─nvme0n1p1 259:1    0     1G  0 part /boot/efi
+└─nvme0n1p2 259:2    0 952.8G  0 part /var/snap/firefox/common/host-hunspell
