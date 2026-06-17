@@ -1,0 +1,2 @@
+This file was mad by: cat README.md | grep linux > system-report.txt
+# my-linux-machine
